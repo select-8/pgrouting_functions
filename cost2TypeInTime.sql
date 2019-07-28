@@ -114,23 +114,3 @@ where
 END
 $func$
 LANGUAGE PLPGSQL;
-
-
-SELECT
-    agg_costs, id
-FROM
-    pgr_cost2TypeInTime(
-        'heathrow',-0.44873026596615, 51.4692314246706,'geom_polygons',1238,'2016-12-31 13:30:15');
-/*
-    agg_costs, id
-FROM
-    pgr_cost2TypeInTime(
-        'ways.network',507779.443679,175678.168339,27700,'gis_heathrow.geom_polygons',7485);
-*/
-/*
-SELECT
-    agg_costs, id
-FROM
-    pgr_cost2TypeInTime(
-        'ways.network',-0.44873026596615, 51.4692314246706,'gis_heathrow.geom_polygons',3686);
-*/

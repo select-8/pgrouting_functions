@@ -51,13 +51,3 @@ dijkstra AS (
     FROM with_geom;
 $BODY$
 LANGUAGE 'sql';
-
-
-/*
-SELECT
-    seq, geom, floor
-FROM
-    pgr_fromCoord2Coord('ways.network',375041.666571, 164915.7938,'2',375078.70312, 164904.547503,'3',27700);
-*/
-
-

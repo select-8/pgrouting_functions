@@ -69,13 +69,3 @@ dijkstra AS (
 END
 $func$
 LANGUAGE PLPGSQL;
-
-/*
-
-SELECT
-    seq, geom, floor
-FROM
-    pgr_fromCoord2Asset('ways.network','ce.assets',375041.666571, 164915.7938,'2','ax375078686584312ay164904805662317_f2_f3a5a7b935a703dbeb17b13772e30fbc',27700);
-
-*/
-
